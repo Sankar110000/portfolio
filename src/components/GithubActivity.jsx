@@ -63,9 +63,9 @@ export default function GithubActivity({ username }) {
       className="border-s-2 border-amber-50 p-2 sm:p-6  ms-4 lg:ms-0 w-[85%] lg:w-auto"
     >
       <div >
-      <h1 className="sm:text-3xl font-semibold text-blue-500 mb-2 text-xl"><FaGithub className="inline -translate-y-1"/> Github Activity</h1>
+      <h1 className="sm:text-3xl lg:text-4xl font-semibold text-blue-500 mb-2 text-xl"><FaGithub className="inline -translate-y-1"/> Github Activity</h1>
       <div className="border-b-2 border-blue-500 mb-4"></div>
-      <h2 className="pb-0.5 border-b-2 text-blue-400 text-sm sm:text-lg">Latest Activity</h2>
+      <h2 className="pb-0.5 border-b-2 text-blue-400 text-sm sm:text-lg lg:text-xl">Latest Activity</h2>
       <ul className="space-y-2 mt-1">
         {events.map((event) => (
           <li key={event.id} className="flex items-center gap-2 text-sm text-white">
@@ -81,7 +81,7 @@ export default function GithubActivity({ username }) {
         ))}
       </ul>
       <div className="text-white mt-4 w-full" id="github-activity">
-        <h2 className="pb-0.5 border-b-2 text-blue-400">Github Contributions</h2>
+        <h2 className="pb-0.5 border-b-2 text-blue-400  lg:text-xl">Github Contributions</h2>
         <GitHubCalendar username="sankar110000"/>
       </div>
     </div>

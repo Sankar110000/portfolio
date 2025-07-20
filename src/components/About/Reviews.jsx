@@ -33,7 +33,7 @@ function Reviews() {
       viewport={{ once: false }}
       className="border-s-2 border-white p-2 sm:p-6  ms-4 lg:ms-0 w-[85%] lg:w-auto"
     >
-      <h1 className="text-xl sm:text-3xl font-semibold text-blue-500 mb-2">Reviews</h1>
+      <h1 className="text-xl sm:text-3xl lg:text-4xl font-semibold text-blue-500 mb-2">Reviews</h1>
       <div className="border-b-2 border-blue-500 mb-6"></div>
 
       <div className="grid gap-2 sm:gap-6 md:grid-cols-2">
@@ -44,7 +44,7 @@ function Reviews() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.2 }}
             viewport={{ once: false }}
-            className="bg-gray-700 text-sm rounded sm:rounded-xl p-1 sm:p-4 shadow-md border border-gray-600 w-[18rem] sm:w-auto"
+            className="bg-gray-700 text-sm lg:text-[15px] rounded sm:rounded-xl p-1 sm:p-4 shadow-md border border-gray-600 w-[18rem] sm:w-auto"
           >
             <p className="text-gray-300 mb-4">"{review.text}"</p>
             <div>

@@ -8,10 +8,10 @@ const ContactSection = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6 }}
                 viewport={{ once: false }}
-                className="text-lg md:text-4xl text-neutral-50 border-blue-400 border-s-2 ps-4 my-10 ms-110 sm:ms-55 xl:ms-0 font-bold"
+                className="text-lg md:text-4xl lg:text-5xl text-neutral-50 border-blue-400 border-s-2 ps-4 my-10 ms-110 sm:ms-55 xl:ms-0 font-bold"
               >
                 Get in touch
-                <div className="text-sm md:text-2xl font-light w-65 sm:w-auto">Want to buid an application, collaborate, or wana say Hii !</div>
+                <div className="text-sm md:text-2xl lg:text-3xl font-light w-65 sm:w-auto">Want to buid an application, collaborate, or wana say Hii !</div>
               </motion.div>
         <section className="w-full sm:flex justify-center px-6 md:px-20 pb-4 sm:py-16 lg:gap-12">
       <motion.div
@@ -22,9 +22,9 @@ const ContactSection = () => {
         className="flex-1"
       >
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREAfdH_JglEKmfWKa5Ziuw8iu_X7k_QCVN_O08qmJyGEzi1cOU3OEyfOEkYLTPgJaX-QK3&s"
+          src="/product.jpg"
           alt="Contact"
-          className="h-70 rounded-2xl max-w-md sm:mx-auto ms-120"
+          className="h-70 lg:h-90 lg:w-[50%] rounded-2xl max-w-md sm:mx-auto ms-120 md:mt-5"
         />
       </motion.div>
       <motion.div

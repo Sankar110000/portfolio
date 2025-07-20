@@ -11,10 +11,10 @@ function PersonalInfo() {
       viewport={{ once: false }}
       className="border-s-2 border-white p-2 sm:p-6 ms-4 lg:ms-0 sm:w-[85%] lg:w-auto"
     >
-      <h1 className="text-xl sm:text-3xl font-semibold text-blue-500 mb-2">Personal Info</h1>
+      <h1 className="text-xl sm:text-3xl lg:text-4xl font-semibold text-blue-500 mb-2">Personal Info</h1>
       <div className="border-b-2 border-blue-500 mb-4"></div>
 
-      <div className="space-y-3 text-gray-300 text-sm sm:text-lg">
+      <div className="space-y-3 text-gray-300 text-sm sm:text-lg lg:text-xl">
         <p> Fullname: <span className="text-gray-400">Kaibalya Sahoo</span></p>
         <p><FaEnvelope className="inline mr-2" />Email: <a href="mailto:skaibalya@gmail.com" className="text-blue-400 hover:underline">skaibalya@gmail.com</a></p>
         <p><FaPhone className="inline mr-2" />Phone: <span className="text-gray-400">+91 9876543210</span></p>

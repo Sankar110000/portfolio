@@ -6,7 +6,7 @@ function Head() {
   return (
     <section
       id="about"
-      className="py-16 px-6 text-gray-800 dark:text-white ms-5 sm:ms-0"
+      className="py-16 px-6 text-gray-800 dark:text-white ms-5 sm:ms-0 lg:scale-110"
     >
       <div className="w-screen mx-auto sm:flex justify-center gap-6 mt-20">
         <motion.div

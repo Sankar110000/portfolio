@@ -40,10 +40,10 @@ export default function ProjectSection() {
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: false }}
-        className="text-lg md:text-4xl text-neutral-50 border-blue-400 border-s-2 ps-4 my-10 ms-110 sm:ms-55 xl:ms-0 font-bold"
+        className="text-lg md:text-4xl lg:text-5xl text-neutral-50 border-blue-400 border-s-2 ps-4 my-10 ms-110 sm:ms-55 xl:ms-0 font-bold"
       >
         Projects
-        <div className="text-sm md:text-2xl font-light">A lot of project in my <a href="" className="text-blue-500 hover:border-blue-500 hover:border-b-2 ">Github Repo</a></div>
+        <div className="text-sm md:text-2xl lg:text-3xl font-light">A lot of project in my <a href="" className="text-blue-500 hover:border-blue-500 hover:border-b-2 ">Github Repo</a></div>
       </motion.div>
       <div className="grid grid-cols-1 lg:grid-cols-3">
         {projects.map((project, index) => {
@@ -54,9 +54,9 @@ export default function ProjectSection() {
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: index * 0.2 }}
                         viewport={{ once: false }}
-                        className="flex justify-center sm:block lg:md:gap-2 px-70 lg:px-0"
+                        className="flex justify-center sm:block lg:gap-3 px-70 lg:px-0"
                       >
-            <CardSpotlight className="w-70 h-auto sm:w-150 lg:w-96 lg:h-90 px-4 py-3 md:p-4 mb-2">
+            <CardSpotlight className="w-70 h-auto sm:w-150 lg:w-full lg:h-90 px-4 py-3 md:p-4 mb-2">
               <p className="text-lg border-b-1 border-gray-400 md:border-0 md:text-xl font-semibold md:font-bold relative z-20 mt-2 text-white">
                 {project.title}
               </p>

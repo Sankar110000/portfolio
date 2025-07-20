@@ -50,12 +50,12 @@ export default function Skills() {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6 }}
                 viewport={{ once: false }}
-                className="text-lg md:text-4xl text-neutral-50 border-blue-400 border-s-2 ps-4 mt-10 lg:my-10 ms-110 sm:ms-55 xl:ms-0 font-bold"
+                className="text-lg md:text-4xl lg:text-5xl text-neutral-50 border-blue-400 border-s-2 ps-4 mt-10 lg:my-10 ms-110 sm:ms-55 xl:ms-0 font-bold"
               >
                 Skills
-                <div className="text-sm md:text-2xl font-light">Lorem, ipsum dolor.</div>
+                <div className="text-sm md:text-2xl lg:text-3xl font-light">Lorem, ipsum dolor.</div>
         </motion.div>
-      <div className="max-w-6xl mx-auto text-center">
+      <div className="max-w-6xl lg:max-w-7xl text-center">
         <div className="relative w-full overflow-hidden">
           <motion.div
             className="flex gap-6 w-max mt-10"

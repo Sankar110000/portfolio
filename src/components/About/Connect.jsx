@@ -11,7 +11,7 @@ function Connect() {
       viewport={{ once: false }}
       className="border-s-2 border-amber-50 p-2 sm:p-6 ms-4 lg:ms-0 w-[85%] lg:w-auto"
     >
-      <h1 className="text-xl sm:text-3xl font-semibold text-blue-500 mb-2">
+      <h1 className="text-xl sm:text-3xl lg:text-4xl  font-semibold text-blue-500 mb-2">
         Let&apos;s Connect
       </h1>
       <div className="border-b-2 border-blue-500 mb-4"></div>

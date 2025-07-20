@@ -48,16 +48,17 @@ function Testimonial() {
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: false }}
-        className="text-lg md:text-4xl text-neutral-50 border-blue-400 border-s-2 ps-4 my-10 ms-110 sm:ms-55 xl:ms-0 font-bold"
+        className="text-lg md:text-4xl lg:text-5xl text-neutral-50 border-blue-400 border-s-2 ps-4 my-10 ms-110 sm:ms-55 xl:ms-0 font-bold"
       >
         Testimonials
-        <div className="text-sm md:text-2xl font-light">Reivews that are from real customres</div>
+        <div className="text-sm md:text-2xl lg:text-3xl font-light">Reivews that are from real customres</div>
       </motion.div>
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: false }}
+        className="lg:scale-110"
       >
         <AnimatedTestimonials testimonials={testimonials} />
       </motion.div>
