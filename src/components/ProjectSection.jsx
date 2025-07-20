@@ -5,13 +5,13 @@ import { Link } from "react-router";
 
 const projects = [
   {
-    title: "Chat App",
+    title: "Wanderlust",
     image: "src/assets/chat.jpg",
     description:
-      "A real-time chat application using WebSockets, Node.js, and React.",
-    technologies: ["NodeJS", "ReactJS", "Web Sockets", "Tailwind CSS"],
+      "A fullstack applications having features login, signup, user specific profile and much more.",
+    technologies: ["NodeJS", "MongoDB", "Express", "Bootstrap", "Passport.JS"],
     github: "https://github.com/yourusername/chat-app",
-    live: "https://yourchatapp.vercel.app",
+    live: "https://github.com/Sankar110000/Wanderlust",
   },
   {
     title: "Portfolio Website",
@@ -20,7 +20,7 @@ const projects = [
       "A responsive portfolio website built using React and Tailwind CSS.",
     technologies: ["NodeJS", "ReactJS", "Framer Motion", "Tailwind CSS", "Acertinity"],
     github: "https://github.com/yourusername/portfolio",
-    live: "https://yourportfolio.vercel.app",
+    live: "https://amazing-brigadeiros-c92cda.netlify.app/",
   },
   {
     title: "Food Ordering App",
@@ -29,7 +29,7 @@ const projects = [
       "Swiggy-like food ordering app using MERN stack and localStorage.",
     technologies: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/yourusername/food-ordering-app",
-    live: "https://yourfoodapp.vercel.app",
+    live: "https://zwiggi.netlify.app/",
   },
 ];
 
@@ -57,7 +57,7 @@ export default function ProjectSection() {
                         viewport={{ once: false }}
                         className="flex justify-center sm:block lg:gap-3 px-70 lg:px-0"
                       >
-            <Link to={""}>
+            <Link to={project.live}>
             <CardSpotlight className="w-70 h-auto sm:w-150 lg:w-full lg:h-90 px-4 py-3 md:p-4 lg:p-10 mb-2">
               <p className="text-lg border-b-1 border-gray-400 md:border-0 md:text-xl font-semibold md:font-bold relative z-20 text-white">
                 {project.title}
