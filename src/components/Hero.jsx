@@ -3,7 +3,7 @@ import { FlipWords } from "./ui/flip-words";
 
 function Hero() {
   return (
-    <section className=" flex justify-center items-center min-h-screen bg-gray-900 px-6 w-screen">
+    <section className=" flex justify-center items-center min-h-screen bg-gray-900 px-6 xl:w-screen">
       <div className="text-center max-w-4xl">
         <h1 className="text-3xl font-bold md:text-6xl md:font-semibold text-white leading-tight">
           Hello, I'm <br />
