@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router";
 
 const ContactSection = () => {
   return (
@@ -42,12 +43,13 @@ const ContactSection = () => {
           Whether you have a question, want to collaborate, or just want to say
           hi — my inbox is always open!
         </p>
-        <a
-          href="mailto:skaibalya748@gmailcom"
-          className="inline-block px-4 py-2 bg-amber-200 text-black rounded hover:bg-amber-300 transition duration-200"
+        <Link to={"/contact"}>
+        <p
+          className="inline-block px-4 py-2 bg-sky-500 text-black rounded transition duration-200"
         >
           I am Here
-        </a>
+        </p>
+        </Link>
       </motion.div>
     </section>
     </div>

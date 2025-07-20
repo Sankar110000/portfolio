@@ -1,5 +1,6 @@
 import React from "react";
 import { FlipWords } from "./ui/flip-words";
+import { Link } from "react-router";
 
 function Hero() {
   return (
@@ -29,12 +30,13 @@ function Hero() {
         </p>
 
         <div className="mt-8 flex justify-center">
-          <a
-            href="/about"
+          <Link to={"/about"}>
+          <p
             className="bg-blue-500 text-white md:px-6 md:py-3 px-3 py-2 rounded hover:bg-blue-600 transition-all duration-300"
           >
             More About Me
-          </a>
+          </p>
+          </Link>
         </div>
       </div>
     </section>
