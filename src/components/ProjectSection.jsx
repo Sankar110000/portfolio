@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { CardSpotlight } from "../components/ui/card-spotlight";
 import { div, section } from "framer-motion/client";
+import { Link } from "react-router";
 
 const projects = [
   {
@@ -56,8 +57,9 @@ export default function ProjectSection() {
                         viewport={{ once: false }}
                         className="flex justify-center sm:block lg:gap-3 px-70 lg:px-0"
                       >
-            <CardSpotlight className="w-70 h-auto sm:w-150 lg:w-full lg:h-90 px-4 py-3 md:p-4 mb-2">
-              <p className="text-lg border-b-1 border-gray-400 md:border-0 md:text-xl font-semibold md:font-bold relative z-20 mt-2 text-white">
+            <Link to={""}>
+            <CardSpotlight className="w-70 h-auto sm:w-150 lg:w-full lg:h-90 px-4 py-3 md:p-4 lg:p-10 mb-2">
+              <p className="text-lg border-b-1 border-gray-400 md:border-0 md:text-xl font-semibold md:font-bold relative z-20 text-white">
                 {project.title}
               </p>
               <div className="text-neutral-200 mt-1 md:mt-4 relative text-sm md:text-lg">
@@ -72,6 +74,7 @@ export default function ProjectSection() {
                 {project.description}
               </p>
             </CardSpotlight>
+            </Link>
             </motion.div>
           );
         })}
