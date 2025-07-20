@@ -18,7 +18,7 @@ export function HeroScrollDemo() {
         }
       >
         <img
-          src={`/src/assets/tab-pic.png`}
+          src={`/tab-pic.png`}
           alt="hero"
           height={720}
           width={1400}

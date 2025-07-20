@@ -19,7 +19,7 @@ function Head() {
           <div className="w-[40%]">
             <div className="w-60 overflow-hidden rounded-2xl">
               <img
-                src="src/assets/profile.jpg"
+                src="/profile.jpg"
                 alt=""
                 className="h-80 w-full object-cover"
               />
