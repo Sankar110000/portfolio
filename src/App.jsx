@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router"
-import AllRoutes from "./routes/allRoutes.jsx"
+import AllRoutes from "./routes/AllRoutes.jsx"
 
 function App() {
 
